@@ -258,17 +258,19 @@ p.hero-text {
     font-size: 2rem;
   }
 
+  
+
   div.hero-text {
     padding-inline: 0.5rem;
     width: 100%;
   }
 
-  .project-main .socials {
+   .socials {
     gap: 0.5rem;
   }
 
   .language-icons {
     /* font-size: ; */
-    gap: 0.7rem;
+    gap: 0.9rem;
   }
 }

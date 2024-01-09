@@ -76,6 +76,7 @@ textarea::placeholder {
 
   .contact-wrapper {
     padding: 1rem;
+    width: 100%;
   }
 
   input,
