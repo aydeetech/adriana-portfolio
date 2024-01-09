@@ -1,0 +1,84 @@
+.download-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsla(0, 0%, 32%, 0.9);
+}
+
+.download-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--deep-black);
+    padding: 0.7rem;
+    border-radius: 1.375rem;
+    width: 44.125rem;
+}
+
+.close {
+    /* border-radius: 50%; */
+    /* background-color: var(--deep-orange);
+    color: var(--pure-black); */
+    color: var(--deep-orange);
+    align-self: end;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.download-wrapper div {
+    /* align-self: center; */
+    text-align: center;
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 0.7rem;
+}
+
+.download-icon {
+    color: var(--pure-white);
+    font-size: 3rem;
+}
+
+.download-wrapper a {
+    color: var(--orange);
+    text-decoration: underline;
+    font-family: var(--lato);
+    font-weight: 400;
+}
+
+.download-wrapper h2 {
+    font-family: var(--hammer);
+    font-size: 2.8125rem;
+    font-weight: 400;
+    color: var(--pure-white);
+}
+
+.download-wrapper p {
+    font-family: var(--lato);
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.download-btn {
+    color: var(--deep-black);
+    border-radius: 0.3125rem;
+    background-color: var(--faded-grey);
+    font-family: var(--lato);
+    font-weight: 700;
+    font-size: 1.125rem;
+    width: 15.5rem;
+    padding: 0.6rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .download-wrapper {
+        width: 23.4375rem;
+    }
+
+    .download-container {
+        height: 220vh;
+    }
+}

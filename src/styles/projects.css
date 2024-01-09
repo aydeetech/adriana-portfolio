@@ -1,0 +1,125 @@
+.project-container {
+  padding: 1rem 0 1rem 0rem;
+  gap: 2rem;
+}
+
+.project-main .hero-wrapper {
+    padding: 2.5rem 0;
+}
+
+.project-main  .hero-wrapper {
+  padding-inline:1rem 0.5rem ;
+}
+
+.project-container h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.body-link,
+.body-link a {
+  color: var(--grey);
+  font-family: var(--lato);
+}
+
+.body-link li {
+    padding: 1rem 0;
+}
+
+.body-link a:focus,
+.body-link a:active {
+    font-weight: 700;
+    color: var(--pure-white);
+}
+
+.line {
+  display: inline-flex;
+  margin-block: 0.2rem;
+  width: 1rem;
+  height: 1.5px;
+  background-color: var(--grey);
+}
+
+/* .body-link a:focus, .body-link a:focus{
+    width: 1.2rem;
+    background-color: var(--pure-white);
+} */
+
+
+.project-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    padding: 4.3125rem 7.5625rem 3.1875rem 2.4375rem;
+    background-color: var(--project-bg);
+}
+
+.project {
+    background-color: var(--project);
+    padding: 1rem;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stack {
+  font-family: var(--lato);
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+
+.project h2 {
+  font-family: var(--hammer);
+  font-size: 1.875rem;
+  font-weight: 400;
+  color: var(--pure-white);
+}
+
+.project div,
+.project div a {
+  color: var(--grey);
+  justify-content: space-between;
+}
+
+.project div a {
+    padding: 0.7rem;
+}
+
+.extra-links {
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.ex-link {
+  justify-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project-wrapper {
+    /* padding: 4.3125rem 1.5625rem 3.1875rem 1.4375rem; */
+    padding: 1rem;
+    width: 100%;
+    gap: rem;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+
+  .body-link {
+    display: none;
+  }
+
+  .project {
+    /* justify-content: space-between; */
+    width: 20.3125rem;
+    gap: 1rem;
+  }
+
+  .project-container h1 {
+    font-size: 2.125rem;
+  }
+}
